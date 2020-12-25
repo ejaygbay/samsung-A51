@@ -1,0 +1,35 @@
+body {
+  box-sizing: border-box;
+}
+
+#phone-body {
+  height: 550px;
+  width: 300px;
+  background: blue;
+  border-radius: 26px;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+}
+
+#speaker {
+  height: 6px;
+  width: 50px;
+  background: black;
+}
+
+#front-camera {
+  height: 16px;
+  width: 16px;
+  background: black;
+  border-radius: 50px;
+  margin: 10px 0 0 48%;
+}
+
+#screen {
+  height: 33.2em;
+  width: 96%;
+  background: white;
+  border-radius: 26px;
+  margin-top: -2px;
+}
