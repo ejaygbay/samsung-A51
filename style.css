@@ -26,11 +26,22 @@ body {
 }
 
 #front-camera {
-  height: 16px;
+  height: 12px;
   width: 16px;
   background: black;
   border-radius: 50px;
   margin: 10px 0 0 48%;
+  padding-top: 4px;
+  opacity: 0.9;
+}
+
+#camera {
+  height: 8.5px;
+  width: 8.5px;
+  background: gray;
+  border-radius: 50px;
+  margin-left: 3.8px;
+  opacity: 0.4;
 }
 
 #screen {
@@ -41,4 +52,51 @@ body {
   background-image: url("./home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.side-btns {
+  height: 46px;
+  width: 4px;
+  background: black;
+  margin-top: 5px;
+  margin-left: 280px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#side-btn {
+  margin-top: 50px;
+}
+
+#power-btn {
+  margin-top: 30px;
+}
+
+.home-icons {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  margin: 0px 0px 10px 20px;
+}
+
+.home-icons:hover {
+  cursor: pointer;
+}
+
+#action-btns {
+  /* height: 10%; */
+  width: 100%;
+  /* background: yellow; */
+  margin-top: 140px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+#multi-task {
+  font-weight: 900;
+}
+
+#back,
+#home,
+#multi-task {
+  justify-self: center;
 }
