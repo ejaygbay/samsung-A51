@@ -52,6 +52,7 @@ body {
   background-image: url("./home2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .side-btns {
@@ -71,9 +72,16 @@ body {
   margin-top: 30px;
 }
 
-#home-screen {
+#home-screen-icons1 {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+  margin-left: 20px;
+}
+
+#home-screen-icons2 {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 19% 19% 19% 19% 19%;
   margin-left: 20px;
 }
 
@@ -90,9 +98,10 @@ body {
 
 #action-btns {
   width: 100%;
-  margin-top: 140px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
+  position: absolute;
+  bottom: 4px;
 }
 
 #multi-task {
